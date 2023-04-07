@@ -68,3 +68,98 @@ body {
     font-size: 36px;
     color: #4B4B4B;
 }
+
+/* slide */
+.slide {
+    position: relative;
+}
+
+.slide .item {
+    height: 650px;
+    background-image: url('../images/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide .text_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.slide .text_box h3 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.slide .text_box h2 {
+    font-size: 96px;
+    color: black;
+    font-family: 'Days One', sans-serif;
+}
+
+.slide .text_bot p {
+    width: 60%;
+    margin: 0 auto;
+    color: #666;
+}
+
+.slide .slide_btn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transform: translateY(-50%);
+    padding: 0 30px;
+}
+
+.slide .slide_btn img {
+    width: 42px;
+    cursor: pointer;
+}
+
+/* container / main / contents */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section_01 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 135px;
+    color: #3a3a3a;
+}
+
+.section_01 .text_box {
+    flex: 1;
+    height: 500px;
+    background-color: #ddd;
+    padding: 63px 30px;
+}
+
+.section_01 .text_box h2 {
+    font-size: 56px;
+    font-weight: 700px;
+}
+
+.section_01 .text_box p {
+}
+
+.section_01 .banner {
+    flex: 1;
+    height: 500px;
+}
+
+
+
+
